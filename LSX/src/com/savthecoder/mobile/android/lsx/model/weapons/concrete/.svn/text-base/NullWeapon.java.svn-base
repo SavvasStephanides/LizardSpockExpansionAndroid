@@ -1,0 +1,12 @@
+package com.savthecoder.rpsls.model.weapons.concrete;
+
+import com.savthecoder.rpsls.model.weapons.abstraction.Weapon;
+
+public class NullWeapon extends Weapon
+{
+	public NullWeapon()
+	{
+		super(null, null);
+	}
+
+}

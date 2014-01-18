@@ -1,0 +1,16 @@
+package com.savthecoder.rpsls.model.weapons.concrete;
+
+import com.savthecoder.rpsls.model.enums.WeaponEnum;
+import com.savthecoder.rpsls.model.weapons.abstraction.Weapon;
+
+public class Scissors extends Weapon
+{
+	
+	private static WeaponEnum[] weaker = {WeaponEnum.LIZARD, WeaponEnum.PAPER};
+
+	public Scissors()
+	{
+		super("Scissors", weaker);
+	}
+
+}

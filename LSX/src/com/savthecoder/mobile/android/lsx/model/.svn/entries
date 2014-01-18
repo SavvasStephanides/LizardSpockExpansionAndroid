@@ -1,0 +1,40 @@
+10
+
+dir
+7
+svn://unix.fdmgroup.com:5500/savvas.stephanides/RPSLSWeb/src/main/java/com/savthecoder/rpsls/model
+svn://unix.fdmgroup.com:5500/savvas.stephanides
+
+
+
+2012-02-28T16:31:53.200326Z
+6
+savvas.stephanides
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+64f80a0e-a69e-46a4-a201-9366192b2f46
+
+enums
+dir
+
+factory
+dir
+
+score
+dir
+
+weapons
+dir
+

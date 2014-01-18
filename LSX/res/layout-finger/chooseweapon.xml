@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/maroon_noise_background" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center_vertical"
+            android:layout_marginTop="40dp">
+
+            <ImageButton
+                android:id="@+id/chooseweapon_rockbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="36dp"
+                android:layout_weight="0.05"
+                android:background="#800000"
+                android:src="@drawable/lsx_rock_button" />
+
+            <ImageButton
+                android:id="@+id/chooseweapon_paperbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/chooseweapon_rockbutton"
+                android:layout_below="@+id/chooseweapon_rockbutton"
+                android:layout_marginTop="10dp"
+                android:background="#800000"
+                android:src="@drawable/lsx_paper_button" />
+
+            <ImageButton
+                android:id="@+id/chooseweapon_scissorsbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/chooseweapon_paperbutton"
+                android:layout_below="@+id/chooseweapon_paperbutton"
+                android:layout_marginTop="10dp"
+                android:background="#800000"
+                android:src="@drawable/lsx_scissors_button" />
+
+            <ImageButton
+                android:id="@+id/chooseweapon_lizardbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/chooseweapon_scissorsbutton"
+                android:layout_below="@+id/chooseweapon_scissorsbutton"
+                android:layout_marginTop="10dp"
+                android:background="#800000"
+                android:src="@drawable/lsx_lizard_button" />
+
+            <ImageButton
+                android:id="@+id/chooseweapon_spockbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/chooseweapon_lizardbutton"
+                android:layout_below="@+id/chooseweapon_lizardbutton"
+                android:layout_marginTop="10dp"
+                android:background="#800000"
+                android:src="@drawable/lsx_spock_button" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Choose a weapon:"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="bottom" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:text="round result..."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

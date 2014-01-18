@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LSXActivity!</string>
+    <string name="app_name">Lizard Spock Expansion</string>
+    <string name="backgroundcolor">#770000</string>
+    <string name="buttoncolor">#AA0000</string>
+
+</resources>

@@ -1,0 +1,6 @@
+package com.savthecoder.rpsls.model.enums;
+
+public enum WeaponEnum 
+{
+	ROCK, PAPER, SCISSORS, LIZARD, SPOCK
+}
